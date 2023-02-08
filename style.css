@@ -37,7 +37,7 @@ header p{
 .wrapper .form{
     margin: 20px 0 25px;
 }
-
+// :where() evaluates below function as .form input, .form button
 .form :where(input,button){
     width: 100%;
     height: 55px;
